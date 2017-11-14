@@ -9,7 +9,6 @@ body {
     padding: 0px;
     margin: auto 0;
     overflow: auto;
-    overflow: auto;
 }
 
 * {
@@ -22,7 +21,7 @@ body {
 }
 
 h1 {
-    text-shadow: 2px 2px 2px yellow;
+    text-shadow: 2px 2px 2px lightblue;
 }
 
 h1, h3, .panel-title, .panel-body {
@@ -57,13 +56,14 @@ button{
 
 /*top nav bar*/
 #github {
-    height: 52px;
-    width: 52px;
+    height: 50px;
+    width: 50px;
 }
 
 #text{
     margin-top: 10%;
     margin-right: 10%;
+    font: #ee3338;
     font-family: 'Schoolbell';
     font-size: 25px;
     font-weight: bold;
@@ -149,28 +149,16 @@ button{
     align-content: stretch;
 }
 
-#navbrand{
-    color: white;
-    font-family: 'Schoolbell', cursive;
-    font-size: 30px;
-    text-shadow: 2px 2px #1a8cff;
-}
-
-#navbottom {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: 0;
-    left: 0;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-
 
 #frontrunner {
+    display: block;
+    width: 700px;
+    height: 50px;
     text-align: left;
-l   width: 400px;
-    height: 46px;
-    background:"assets/images/utafrontrunner.pngssets/images/utafrontrunner.png";
+
+}
+
+.text-center {
+    background-color: none; 
+    color: none;
 }

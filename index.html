@@ -11,7 +11,7 @@
 
 
   <!-- jQuery CDN -->
-  <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
 
 
   <!-- Firebase Reference -->
@@ -23,7 +23,7 @@
 
 
   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 
 
   <!-- Stylesheets -->
@@ -32,6 +32,7 @@
 
   <!-- <script src="assets/javascript/app.js"></script> -->
 </head>
+
 <body> 
   <!-- Top Nav -->
   <nav class="navbar navbar-default" id="navbar">
@@ -53,10 +54,10 @@
 
 
             <!--Adds custom LOGIN button-->
-        <a href="#" onclick="fb_login();"><img class="fb" src="assets/images/fbround.png" height=48 width=48px border="0"></a>
+        <a href="#" onclick="fb_login();"><img class="fb" src="assets/images/fbround.png" height="50px" width="50px" border="0"></a>
 
 
-        <a href="#"><img id="github" src="assets/images/octocat.png"></a>
+        <a href="#"><img id="github" src="assets/images/octocat.png" height="50px" width="50px" border="0"></a>
       </div>
     </div>
   </nav>
@@ -66,10 +67,10 @@
 
 
 <div class="container">
-  <div class="jumbotron text-center" style="background-color: none; color: none">
+  <div class="jumbotron text-center">
     <h1>All Aboard...</h1>
     <hr>
-    <h2>Current Time: <span id="currentTime"></span></h2>
+    <h2>Current Time: <span id="currentTime">Mon Nov 13 2017 16:26:01 GMT-0700</span></h2>
   </div> <!-- Jumbotron End -->
  
 
@@ -100,7 +101,7 @@
           </thead>
           <tbody id="trainTable">
             <tr></tr>
-          </tbody>
+          <tr><td id="nameDisplay">undefined</td><td id="destDisplay">undefined</td><td id="freqDisplay">undefined</td><td id="nextDisplay">16:26</td><td id="awayDisplay">NaN minutes until arrival</td></tr></tbody>
           </table>
         </div> <!-- Panel Body End -->
       </div> <!-- Panel Default End -->
@@ -145,5 +146,6 @@
 
 
     <script src="assets/javascript/java.js"></script>
+
 </body>
 </html>
