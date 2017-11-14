@@ -100,9 +100,9 @@ button{
     font-size: 20px;
     border-color: paleturquoise !important;
     background: rgb(105, 105, 105);
-    background: #874640;    
+    background: rgba(105, 105, 105, .5);    
     color: #fff;
-    text-shadow: 2px 2px 4px #000000; 
+    text-shadow: 2px 2px 4px #874640; 
 }
 
 .panel-title, th, h2 {
