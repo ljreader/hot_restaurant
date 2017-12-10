@@ -1,0 +1,28 @@
+<!DOCTYPE-html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type"text/css" href="javaStyle.css">
+    <script type="text/javascript" src="learnjava.js"></script>
+</head>
+
+<body>
+    <h1>Learn Javascript</h1>
+    <div id="mlb-teams"></div>
+    <script>
+    var nlCentralList = [
+        "Cardinals",
+        "Reds",
+        "Cubs",
+        "Pirates",
+        "Brewers",
+    ]
+    
+    var nlCentralTeams = document.getElementById("mlb-teams");
+    for (var i = 0; i < nlCentralList.length; i++) {
+        var nextTeamDiv = document.createElement("div");
+        nextTeamDiv.innerHTML = nlCentralList[i];
+        nlCentralTeams.appendChild(nextTeamDiv);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "constructor_hangman",
+  "version": "1.0.0",
+  "description": "Hangman command-line game using constructor functions.",
+  "main": "main.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^4.0.1",
+    "prompt": "^1.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ljreader.github.io/constructor_hangman/"
+  },
+  "keywords": [
+    "constructor",
+    "hangman"
+  ],
+  "author": "lj_reader",
+  "license": "ISC"
+}
